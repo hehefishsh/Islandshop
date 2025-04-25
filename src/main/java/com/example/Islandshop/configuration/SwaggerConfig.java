@@ -21,7 +21,7 @@ public class SwaggerConfig {
                         .description("3C產品 API")
                         .contact(new Contact()
                                 .name("Seren")
-                                .email("Seren@seren.com"))
+                                .email("SerenChen@seren.com"))
                 );
 
     }
