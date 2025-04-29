@@ -58,6 +58,7 @@ public class ProductController {
     @PutMapping("/{id}")
     @Operation(summary = "編輯商品",description = "用Id編輯3C商品")
     public Product update(@PathVariable Integer id, @RequestBody Product product) {
+        System.out.println("編輯商品");
         product.setId(id);
         return productService.updateProduct(product);
     }
